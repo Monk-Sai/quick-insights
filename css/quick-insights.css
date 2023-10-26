@@ -77,13 +77,25 @@ header {
 
   .fold-2 {
     display: flex;
-    padding-top: 30px;
-    padding-bottom: 30px;
-    flex-direction: column;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    flex-direction: row;
     align-items: center;
+    justify-content:space-around;
   }
   .fold-2 p {
     font-family: 'Open Sans';
+  }
+  .fold-2 h2 {
+    padding-right: 150px;
+    padding-left: 150px;
+    text-align: center;
+    font-family: 'Open Sans'
+  }
+  .fold-2-diversion {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
   }
 
   .fold-3 {
@@ -92,10 +104,9 @@ header {
     padding-bottom: 30px;
     flex-direction: column;
     align-items: center;
-  }
-  .fold-3 {
     font-family: 'Open Sans';
   }
+  .fold-3-diversion {}
 
   .hero-fold-diversion {
     display: flex;
@@ -103,3 +114,4 @@ header {
     align-items: center;
     margin: 75px 15px 75px 15px;
   }
+
