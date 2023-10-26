@@ -106,7 +106,9 @@ header {
     align-items: center;
     font-family: 'Open Sans';
   }
-  .fold-3-diversion {}
+  .fold-3-diversion {
+    
+  }
 
   .hero-fold-diversion {
     display: flex;
