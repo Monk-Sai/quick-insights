@@ -1,4 +1,5 @@
 
+
 header {
     display: flex;
     justify-content: space-between;
@@ -43,7 +44,7 @@ header {
   .nav-ul a:hover {
     color: #ff8000;
   }
-
+  
   .hero-fold {
     text-align: center;
     width: 100%;
@@ -54,6 +55,12 @@ header {
     font-size: 45px;
     color: rgb(255, 55, 19);
     text-shadow: black;
+  }
+  .hero-fold-diversion {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 75px 15px 75px 15px;
   }
   .hero-fold p {
     font-size: 20px;
@@ -72,7 +79,7 @@ header {
     font-family: 'Open sans';
     font-weight: 600;
     background: #ffb66e;
-    text-decoration: none;
+    cursor: pointer;
   }
 
   .fold-2 {
@@ -85,43 +92,55 @@ header {
   }
   .fold-2 p {
     font-family: 'Open Sans';
+    text-align: center;
+    
   }
   .fold-2 h2 {
     padding-right: 150px;
     padding-left: 150px;
-    text-align: center;
+    text-align: center; 
     font-family: 'Open Sans'
   }
   .fold-2-diversion {
     display: flex;
+    width: 100%;
     flex-direction: row-reverse;
     align-items: center;
+    justify-content: space-around;
+  }
+  .fold-2-text-div {
+    position: relative;
+    bottom: 120px;
   }
 
   .fold-3 {
     display: flex;
+    width: 100%;
     padding-top: 30px;
     padding-bottom: 30px;
     flex-direction: column;
     align-items: center;
     font-family: 'Open Sans';
   }
+  .fold-3-text-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 60px;
+  }
   .fold-3-diversion {
     display: grid;
-    flex-direction: column;
-  }
-  .fold-3-right-vent {
-    display: flex;
-  }
-  .fold-3-left-vent {
-    display: flex;
-    flex-direction: column;
+    grid-template-columns: auto auto auto;
+    justify-items: center;
+    gap: 15px;
+    width: 100%;
+    height: auto;
   }
 
-  .hero-fold-diversion {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    margin: 75px 15px 75px 15px;
+  .footer {
+    width: 100%;
+    height: 120px;
+    background-color: #FFDCA8;
+
   }
 
