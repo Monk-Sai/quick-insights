@@ -107,7 +107,15 @@ header {
     font-family: 'Open Sans';
   }
   .fold-3-diversion {
-    
+    display: grid;
+    flex-direction: column;
+  }
+  .fold-3-right-vent {
+    display: flex;
+  }
+  .fold-3-left-vent {
+    display: flex;
+    flex-direction: column;
   }
 
   .hero-fold-diversion {
