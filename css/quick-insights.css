@@ -57,6 +57,13 @@ header {
     color: rgb(255, 55, 19);
     text-shadow: black;
   }
+  .hero-fold p {
+    font-size: 20px;
+    font-family: 'Open Sans';
+    padding-right: 15px;
+    padding-left: 15px;
+    width:
+  }
   .hero-fold-diversion {
     display: flex;
     flex-direction: row;
@@ -64,16 +71,13 @@ header {
     align-items: center;
     margin: 75px 0px 75px 0px;
   }
-  .hero-fold p {
-    font-size: 20px;
-    font-family: 'Open Sans';
-    padding-right: 15px;
-    padding-left: 15px;
+  .hero-fold-diversion p {
+    width: 60%;
   }
 
   button {
     border-radius: 45px;
-    margin: 10px;
+    margin: 15px;
     border: none;
     width: 100px;
     height: 35px;
@@ -135,18 +139,26 @@ header {
     display: grid;
     grid-template-columns: 300px 300px 300px;
     justify-items: center;
-    gap: 15px;
+    gap: 225px;
   }
 
   @media (max-width: 821px) {
     .fold-3-diversion {
       grid-template-columns: 1fr 1fr; /* Single column layout for tablet */
+      gap: 15px;
+    }
+    .fold-2-diversion{
+      flex-direction: column;
+    }
+    .hero-fold-diversion{
+      flex-direction: column-reverse;
     }
   }
   
   @media (max-width: 768px) {
     .fold-3-diversion {
       grid-template-columns: 1fr; /* Single column layout for mobile */
+      gap: 15px;
     }
     .fold-2-diversion{
       flex-direction: column;
