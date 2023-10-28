@@ -56,10 +56,13 @@ header {
     font-size: 45px;
     color: rgb(255, 55, 19);
     text-shadow: black;
+    padding-left: 25px;
+    padding-right: 25px;
   }
   .hero-fold p {
     font-size: 20px;
     font-family: 'Open Sans';
+    padding-top: 25px;
     padding-right: 15px;
     padding-left: 15px;
   }
@@ -69,9 +72,16 @@ header {
     width: 100%;
     align-items: center;
     margin: 75px 0px 75px 0px;
+    justify-content: space-around;
   }
   .hero-fold-diversion p {
     width: 60%;
+    justify-content: center;
+    align-items: center;
+  }
+  .hero-fold-diversion video {
+    width: 40%;
+    align-items: center;
   }
 
   button {
@@ -82,7 +92,7 @@ header {
     height: 35px;
     font-size: medium;
     font-family: 'Open sans';
-    font-weight: 600;
+    font-weight: 700;
     background: #ffb66e;
     cursor: pointer;
   }
@@ -98,7 +108,8 @@ header {
   .fold-2 p {
     font-family: 'Open Sans';
     text-align: center;
-    
+    padding-left: 50px;
+    padding-right: 50px;
   }
   .fold-2 h2 {
     padding-right: 150px;
@@ -108,14 +119,13 @@ header {
   }
   .fold-2-diversion {
     display: flex;
-    width: 100%;
-    flex-direction: row-reverse;
+    flex-direction: column;
     align-items: center;
     justify-content: space-around;
   }
   .fold-2-text-div {
     position: relative;
-    bottom: 90px;
+    bottom: 60px;
     margin-top: 30px;
   }
 
@@ -139,10 +149,10 @@ header {
     grid-template-columns: 300px 300px 300px;
     justify-items: center;
     row-gap: 50px;
-    column-gap: 225px;
+    column-gap: 75px;
   }
 
-  @media (max-width: 915px) {
+  @media (max-width: 916px) {
     .fold-3-diversion {
       grid-template-columns: 1fr 1fr; /* Single column layout for tablet */
       gap: 15px;
