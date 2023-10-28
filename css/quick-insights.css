@@ -72,10 +72,10 @@ header {
     width: 100%;
     align-items: center;
     margin: 75px 0px 75px 0px;
-    justify-content: space-around;
+    justify-content: space-evenly;
   }
   .hero-fold-diversion p {
-    width: 60%;
+    width: 40%;
     justify-content: center;
     align-items: center;
   }
@@ -99,23 +99,27 @@ header {
 
   .fold-2 {
     display: flex;
+    width: 100%;
     padding-top: 60px;
     padding-bottom: 60px;
     flex-direction: row;
     align-items: center;
     justify-content:space-around;
   }
+  .fold-2 h2 {
+    width: 65%;
+    text-align: center; 
+    font-family: 'Open Sans';
+    font-size: 30px;
+  }
   .fold-2 p {
     font-family: 'Open Sans';
+    width: 65%;
     text-align: center;
     padding-left: 50px;
     padding-right: 50px;
-  }
-  .fold-2 h2 {
-    padding-right: 150px;
-    padding-left: 150px;
-    text-align: center; 
-    font-family: 'Open Sans'
+    padding-bottom: 50px;
+    font-size: 20px;
   }
   .fold-2-diversion {
     display: flex;
@@ -125,6 +129,7 @@ header {
   }
   .fold-2-text-div {
     position: relative;
+    display: contents;
     bottom: 60px;
     margin-top: 30px;
   }
@@ -144,12 +149,21 @@ header {
     align-items: center;
     padding-bottom: 60px;
   }
+  .fold-3-text-div h2 {
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Open Sans';
+  }
+  .fold-3-text-div p {
+    font-size: 20px;
+    text-align: center;
+  }
   .fold-3-diversion {
     display: grid;
     grid-template-columns: 300px 300px 300px;
     justify-items: center;
     row-gap: 50px;
-    column-gap: 75px;
+    column-gap: 70px;
   }
 
   @media (max-width: 916px) {
