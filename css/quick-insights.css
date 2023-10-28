@@ -145,6 +145,7 @@ header {
   }
   .fold-3-text-div {
     display: flex;
+    width: 65%;
     flex-direction: column;
     align-items: center;
     padding-bottom: 60px;
@@ -193,10 +194,31 @@ header {
   }
 
   .footer {
+    display: flex;
+    flex-direction: row;
     width: 100%;
-    height: 120px;
+    height: 200px;
     background-color: #FFDCA8;
-
+    text-decoration: none;
+    justify-content: space-around;
+    align-items: center;
   }
-
-
+  .footer p {
+    display: flex;
+    justify-content: center;
+    font-size: larger;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 700;
+  }
+  footer a {
+    color: #000;
+    text-decoration: none;
+  }
+  .foot-nav {
+    display: flex;
+    flex-direction: column;
+    font-weight: 700;
+  }
+  .foot-nav li {
+    text-decoration: none;
+  }
