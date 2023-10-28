@@ -138,10 +138,11 @@ header {
     display: grid;
     grid-template-columns: 300px 300px 300px;
     justify-items: center;
-    gap: 225px;
+    row-gap: 50px;
+    column-gap: 225px;
   }
 
-  @media (max-width: 821px) {
+  @media (max-width: 915px) {
     .fold-3-diversion {
       grid-template-columns: 1fr 1fr; /* Single column layout for tablet */
       gap: 15px;
