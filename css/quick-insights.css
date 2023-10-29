@@ -194,6 +194,9 @@ header {
     .hero-fold-diversion{
       flex-direction: column-reverse;
     }
+    .hero-fold-diversion p{
+      width: 90%;
+    }
   }
 
   .footer {
