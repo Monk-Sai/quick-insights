@@ -166,6 +166,9 @@ header {
     row-gap: 50px;
     column-gap: 70px;
   }
+  .fold-3-diversion a {
+    display: contents;
+  }
 
   @media (max-width: 916px) {
     .fold-3-diversion {
@@ -203,22 +206,34 @@ header {
     justify-content: space-around;
     align-items: center;
   }
-  .footer p {
+  .footer-name-and-copyright {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: start;
+    width: 50%;
+  }
+  .footer-brand-name {
     font-size: larger;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: 700;
   }
-  footer a {
+
+  .foot-nav a {
     color: #000;
+    padding: 5px;
     text-decoration: none;
   }
   .foot-nav {
     display: flex;
+    font-size: larger;
     flex-direction: column;
     font-weight: 700;
+    width: 40%;
   }
   .foot-nav li {
     text-decoration: none;
+  }
+  .footer-copyright {
+    font-size: medium;
+    font-weight: 500;
   }

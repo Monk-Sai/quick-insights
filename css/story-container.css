@@ -1,0 +1,126 @@
+/* Body */
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #ffffff;
+}
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+  font-family: inherit;
+  margin: 0 0 1rem 0;
+  padding: 0;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+}
+
+h3 {
+  font-size: 1.25rem;
+}
+
+h4 {
+  font-size: 1rem;
+}
+
+h5 {
+  font-size: 0.875rem;
+}
+
+h6 {
+  font-size: 0.75rem;
+}
+
+/* Paragraphs */
+p {
+  font-size: 1rem;
+  line-height: 1.5;
+  margin: 0 0 1rem 0;
+  padding: 0;
+}
+
+/* Links */
+a {
+  color: #000000;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #333333;
+}
+
+/* Images */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Web story specific styles */
+.amp-story {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.amp-story-page {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+}
+
+.amp-story-content {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+}
+
+/* Center text */
+.center {
+  text-align: center;
+}
+
+/* Justify text */
+.justify {
+  text-align: justify;
+}
+
+/* Add a border */
+.border {
+  border: 1px solid #000000;
+}
+
+/* Add a margin */
+.margin {
+  margin: 1rem;
+}
+
+/* Add a padding */
+.padding {
+  padding: 1rem;
+}
+
+/* Make an element invisible */
+.hidden {
+  display: none;
+}
+
+/* Make an element appear on hover */
+.hover {
+  display: none;
+}
+
+.hover:hover {
+  display: block;
+}
