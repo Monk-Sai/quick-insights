@@ -1,0 +1,51 @@
+/* Body */
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #ffffff;
+  color: #ffffff;
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: Times New Roman;
+}
+
+
+/* Images */
+img {
+  max-width: 100%;
+  height: 100%;
+}
+
+/* Web story specific styles */
+.amp-story {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.amp-cover-page h1{
+  display: flex;
+  text-align: center;
+  align-items: center;
+  font-size: 35px;
+  padding-top: 150px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+.amp-content-page h2 {
+  display: flex;
+  align-items: end;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 70%;
+  padding-bottom: 55%;
+}
+.amp-content-page p{
+  display: flex;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 115%;
+  align-items: start;
+}
