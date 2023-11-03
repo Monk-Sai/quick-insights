@@ -51,21 +51,99 @@ img {
   align-items: start;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 769px) {
   .amp-content-page h2 {
     display: flex;
     align-items: end;
     padding-left: 5%;
     padding-right: 5%;
-    padding-top: 70%;
-    padding-bottom: 75%;
+    padding-top: 55%;
+    padding-bottom: 60%;
   }
   .amp-content-page p {
     display: flex;
   padding-left: 25px;
   padding-right: 25px;
-  padding-top: 150%;
+  padding-top: 110%;
   padding-bottom: 0%;
   align-items: start;
+  }
+}
+
+@media (max-width: 426px) {
+  .amp-content-page h2 {
+    display: flex;
+    align-items: end;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 60%;
+    padding-bottom: 60%;
+  }
+  .amp-content-page p {
+    display: flex;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 100%;
+  padding-bottom: 0%;
+  align-items: start;
+  }
+}
+
+@media (max-width: 394px) {
+  .amp-content-page h2 {
+    display: flex;
+    align-items: end;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 115%;
+    padding-bottom: 80%;
+  }
+  .amp-content-page p {
+    display: flex;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 140%;
+    padding-bottom: 0%;
+    align-items: start;
+  }
+}
+
+@media (max-width: 415px) {
+  .amp-content-page h2 {
+    display: flex;
+    align-items: end;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 90%;
+    padding-bottom: 85%;
+  }
+  .amp-content-page p {
+    display: flex;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 140%;
+    padding-bottom: 0%;
+    align-items: start;
+  }
+}
+
+@media (max-width: 376px) {
+  .amp-content-page h2 {
+    display: flex;
+    align-items: end;
+    min-width: 319px;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 75%;
+    padding-bottom: 85%;
+  }
+  .amp-content-page p {
+    display: flex;
+    min-width: 319px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 125%;
+    padding-bottom: 0%;
+    align-items: start;
   }
 }
