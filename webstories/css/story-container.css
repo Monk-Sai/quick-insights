@@ -168,3 +168,24 @@ img {
     align-items: start;
   }
 }
+
+@media (min-width: 1023px) and (max-width: 2561px) {
+  .amp-content-page h2 {
+    display: flex;
+    align-items: end;
+    min-width: 319px;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 60%;
+    padding-bottom: 60%;
+  }
+  .amp-content-page p {
+    display: flex;
+    min-width: 319px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 115%;
+    padding-bottom: 0%;
+    align-items: start;
+  }
+}
