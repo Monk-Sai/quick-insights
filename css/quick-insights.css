@@ -60,7 +60,7 @@ header {
     padding-right: 25px;
   }
   .hero-fold p {
-    font-size: 20px;
+    font-size: 25px;
     font-family: 'Open Sans';
     padding-top: 25px;
     padding-right: 15px;
@@ -170,7 +170,7 @@ header {
     display: contents;
   }
 
-  @media (max-width: 916px) {
+  @media (max-width: 1025px) {
     .fold-3-diversion {
       grid-template-columns: 1fr 1fr; /* Single column layout for tablet */
       gap: 15px;
@@ -186,7 +186,7 @@ header {
   @media (max-width: 768px) {
     .fold-3-diversion {
       grid-template-columns: 1fr; /* Single column layout for mobile */
-      gap: 15px;
+      gap: 45px;
     }
     .fold-2-diversion{
       flex-direction: column;
